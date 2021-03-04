@@ -1,0 +1,54 @@
+baseURL: /
+title: 5791 Chabot
+description: Devenez propriétaire d'un magnifique condo proche du métro Jean-talon avec une belle luminosité et grande terrasse côté coucher de soleil.
+DefaultContentLanguage: fr
+
+menu:
+      main:
+        - name: Accueil
+          url: '/'
+          weight: 1
+        - name: Détails
+          url: '#details'
+          weight: 2
+        - name: Photos
+          url: "#photos"
+          weight: 3
+        - name: Visite 3D
+          url: "#visite"
+          weight: 4
+        - name: Contact
+          url: "#contact"
+          weight: 5
+
+params: 
+    businessname: "5791 Chabot"
+    showLanguageSelector: false #true if bilingual site - false if unilingual
+    usebasin: 'https://usebasin.com/f/2941bd408e68' #endpoint for forms
+    googlemap: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18798.4763146908!2d-73.6270153966806!3d45.54207269548786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc9193dd1dd93af%3A0xc9daf02f8bfa1036!2s7408%20Ave%20Christophe-Colomb%2C%20Montreal%2C%20QC%20H2R%202S7!5e0!3m2!1sen!2sca!4v1613684105416!5m2!1sen!2sca' # Map code of Google
+    visit: 'a_7408_ave_christophe_colomb_montreal_qc'
+    gtm: 'GTM-PZVKQ58'
+    price: "$378,900"
+    mls: "27300764"
+    phone: "514-238-2699"
+    social:
+        facebook: ''
+        twitter: ''
+        pinterest: ''
+        instagram: ''
+
+enableRobotsTXT: true
+disableAliases: true
+disableKinds:
+  - categories
+  - tags
+
+sitemap:
+  changefreq: monthly
+  priority: 0.5
+  filename: sitemap.xml
+
+imaging:
+  resampleFilter: box
+  quality: 85
+  anchor: smart

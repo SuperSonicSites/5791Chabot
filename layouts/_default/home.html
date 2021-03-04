@@ -1,0 +1,342 @@
+{{ define "main" }}
+<header class="hero is-fullheight is-bold gradient-background home">
+
+  <div class="hero-body overlay">
+
+    <div class="container">
+      <div class="columns">
+        <div class="column is-8 is-flex is-column is-justified-center">
+          <div class="is-flex is-column is-aligned-center-touch is-justified-center-touch">
+            <h1 class="title has-text-centered-touch is-hero my-3 has-text-white has-font-weight-bold" data-aos="fade"
+              data-aos-delay="500" data-aos-duration="800">
+              {{ .Params.hero1 | safeHTML }}
+            </h1>
+
+            <p class="subtitle has-text-centered-touch mt-1 is-size-5 has-text-white" data-aos="fade-up"
+              data-aos-delay="1000" data-aos-duration="800">
+              {{ .Params.hero2 | safeHTML }}
+            </p>
+            <a href="#contact" class="button is-primary mobile-cta">Prendre Rendez-Vous</a>
+          </div>
+        </div>
+        <div class="column is-4">
+          <div class="" data-aos="zoom-in" data-aos-delay="1500" data-aos-duration="800">
+            {{- partial "form.html" .}}
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+</header>
+<div class="gallery2">
+  <figure class="gallery__item gallery__item--1">
+    <img data-sizes="auto" src="img/coucher1-sm.jpg" data-srcset="img/coucher1-sm.jpg 450w,
+    img/coucher1.jpg" data-src="img/coucher1.jpg" class="gallery__img lazyload"
+      alt="Condo à vendre sur Christophe Colomb image #1">
+  </figure>
+  <figure class="gallery__item gallery__item--1">
+    <img src="img/13-sm.jpg" class="gallery__img lazyload" alt="Condo à vendre sur Christophe Colomb image #1"
+      data-sizes="auto" data-srcset="img/13-sm.jpg 450w,
+      img/13.jpg" data-src="img/13.jpg.jpg">
+  </figure>
+  <figure class="gallery__item gallery__item--1">
+    <img src="img/10-sm.jpg" class="gallery__img lazyload" alt="Condo à vendre sur Christophe Colomb image #1"
+      data-sizes="auto" data-srcset="img/10-sm.jpg 450w,
+      img/10.jpg" data-src="img/10.jpg">
+  </figure>
+</div>
+<section class="section is-medium" data-aos="fade-up" data-aos-delay="500" data-aos-duration="800">
+  <div class="container">
+    <div class="is-flex is-column is-justified-center is-aligned-center">
+      <h2 class="is-size-1 has-text-centered has-text-weight-bold has-text-capitalized">{{ .Params.heading1 }}
+        {{ $.Site.Params.price }}</h2>
+      <h3 class="is-size-3 mt-1 has-text-centered has-text-weight-normal">{{ .Params.subheading1 }}</h3>
+      <p>MLS #: {{ $.Site.Params.mls }}</p>
+    </div>
+    <div class="divider_white"></div>
+    <div class="columns">
+      <div class="column">
+        <div class="box__feature is-flex is-column is-justified-center is-aligned-center" data-aos="fade-up"
+          data-aos-duration="800">
+          <svg class="feature_icon">
+            <use xlink:href="{{ $.Site.BaseURL }}icons/regular.svg#arrow-circle-down"></use>
+          </svg>
+          <h3 class="is-size-5 has-text-centered has-text-centered has-text-uppercase">{{ .Params.feature1 }}</h3>
+          <p class="has-text-centered has-font-size-small">{{ .Params.feature1_desc }}</p>
+        </div>
+
+      </div>
+
+      <div class="column">
+        <div class="box__feature is-flex is-column is-justified-center is-aligned-center" data-aos="fade-up"
+          data-aos-duration="800">
+          <svg class="feature_icon">
+            <use xlink:href="{{ $.Site.BaseURL }}icons/regular.svg#sun"></use>
+          </svg>
+          <h3 class="is-size-5 has-text-centered has-text-centered has-text-uppercase">{{ .Params.feature2 }}</h3>
+          <p class="has-text-centered has-font-size-small">{{ .Params.feature2_desc }}</p>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="box__feature is-flex is-column is-justified-center is-aligned-center" data-aos="fade-up"
+          data-aos-duration="800">
+          <svg class="feature_icon">
+            <use xlink:href="{{ $.Site.BaseURL }}icons/regular.svg#umbrella-beach"></use>
+          </svg>
+          <h3 class="is-size-5 has-text-centered has-text-centered has-text-uppercase">{{ .Params.feature3 }}</h3>
+          <p class="has-text-centered has-font-size-small">{{ .Params.feature3_desc }}</p>
+        </div>
+      </div>
+    </div>
+    <div class="divider"></div>
+    <h2 class="is-size-1 has-text-centered has-text-weight-bold has-text-capitalized">{{ .Params.heading2 }}</h2>
+    <h3 class="is-size-3 mt-1 has-text-centered has-text-weight-normal mb-5 pb-5">{{ .Params.subheading2 }}</h3>
+    <div class="columns is-gapless">
+      <div class="column is-flex is-column is-aligned-center-touch">
+        <div class="benefit_box py-3">
+          <svg class="service_icon">
+            <use xlink:href="{{ $.Site.BaseURL }}icons/regular.svg#star"></use>
+          </svg>
+          <p>{{ .Params.benefit1 }}</p>
+        </div>
+
+        <div class="benefit_box py-3">
+          <svg class="service_icon">
+            <use xlink:href="{{ $.Site.BaseURL }}icons/regular.svg#star"></use>
+          </svg>
+          <p>{{ .Params.benefit2 }}</p>
+        </div>
+
+        <div class="benefit_box py-3">
+          <svg class="service_icon">
+            <use xlink:href="{{ $.Site.BaseURL }}icons/regular.svg#star"></use>
+          </svg>
+          <p>{{ .Params.benefit3 }}</p>
+        </div>
+      </div>
+
+      <div class="column is-flex is-column is-aligned-center-touch">
+
+        <div class="benefit_box py-3">
+          <svg class="service_icon">
+            <use xlink:href="{{ $.Site.BaseURL }}icons/regular.svg#star"></use>
+          </svg>
+          <p>{{ .Params.benefit4 }}</p>
+        </div>
+
+        <div class="benefit_box py-3">
+          <svg class="service_icon">
+            <use xlink:href="{{ $.Site.BaseURL }}icons/regular.svg#star"></use>
+          </svg>
+          <p>{{ .Params.benefit5 }}</p>
+        </div>
+
+        <div class="benefit_box py-3">
+          <svg class="service_icon">
+            <use xlink:href="{{ $.Site.BaseURL }}icons/regular.svg#star"></use>
+          </svg>
+          <p>{{ .Params.benefit6 }}</p>
+        </div>
+
+      </div>
+      <div class="column is-flex is-column is-aligned-center-touch">
+
+        <div class="benefit_box py-3">
+          <svg class="service_icon">
+            <use xlink:href="{{ $.Site.BaseURL }}icons/regular.svg#star"></use>
+          </svg>
+          <p>{{ .Params.benefit7 }}</p>
+        </div>
+
+        <div class="benefit_box py-3">
+          <svg class="service_icon">
+            <use xlink:href="{{ $.Site.BaseURL }}icons/regular.svg#star"></use>
+          </svg>
+          <p>{{ .Params.benefit8 }}</p>
+        </div>
+
+        <div class="benefit_box py-3">
+          <svg class="service_icon">
+            <use xlink:href="{{ $.Site.BaseURL }}icons/regular.svg#star"></use>
+          </svg>
+          <p>{{ .Params.benefit9 }}</p>
+        </div>
+
+      </div>
+    </div>
+    <div class="is-flex is-column is-aligned-center-touch">
+      <p class="my-5 has-text-centered-touch">{{ .Params.listing_desc | safeHTML }}</p>
+      <div class="">
+        <a href="/#contact" class="button is-primary has-text-capitalized mt-5 has-text-centered-touch">Demander plus
+          d'informations</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<section>
+  <div class="gallery" id="photos" data-aos="fade-up" data-aos-delay="500" data-aos-duration="800">
+    <figure class="gallery__item gallery__item--1">
+      <img src="img/1-sm.jpg" data-src="img/1.jpg" class="gallery__img lazyload"
+        alt="Condo à vendre sur Christophe Colomb image #1" data-sizes="auto" data-srcset="img/1-sm.jpg 450w,
+        img/1.jpg">
+    </figure>
+    <figure class="gallery__item gallery__item--1">
+      <img src="img/2-sm.jpg" data-src="img/2.jpg" class="gallery__img lazyload"
+        alt="Condo à vendre sur Christophe Colomb image #1" data-sizes="auto" data-srcset="img/2-sm.jpg 450w,
+        img/2.jpg">
+    </figure>
+    <figure class="gallery__item gallery__item--1">
+      <img src="img/3-sm.jpg" data-src="img/3.jpg" class="gallery__img lazyload"
+        alt="Condo à vendre sur Christophe Colomb image #1" data-sizes="auto" data-srcset="img/3-sm.jpg 450w,
+        img/3.jpg">
+    </figure>
+    <figure class="gallery__item gallery__item--1">
+      <img src="img/4-sm.jpg" data-src="img/4.jpg" class="gallery__img lazyload"
+        alt="Condo à vendre sur Christophe Colomb image #1" data-sizes="auto" data-srcset="img/4-sm.jpg 450w,
+        img/4.jpg">
+    </figure>
+    <figure class="gallery__item gallery__item--1">
+      <img src="img/coucher1-sm.jpg" data-src="img/coucher1.jpg" class="gallery__img lazyload"
+        alt="Condo à vendre sur Christophe Colomb image #1" data-sizes="auto" data-srcset="img/coucher1-sm.jpg 450w,
+        img/coucher1.jpg">
+    </figure>
+    <figure class="gallery__item gallery__item--1">
+      <img src="img/coucher2-sm.jpg" data-src="img/coucher2.jpg" class="gallery__img lazyload"
+        alt="Condo à vendre sur Christophe Colomb image #1" data-sizes="auto" data-srcset="img/coucher2-sm.jpg 450w,
+        img/coucher2.jpg">
+    </figure>
+    <figure class="gallery__item gallery__item--1">
+      <img src="img/7-sm.jpg" data-src="img/7.jpg" class="gallery__img lazyload"
+        alt="Condo à vendre sur Christophe Colomb image #1" data-sizes="auto" data-srcset="img/7.jpg 450w,
+        img/7.jpg">
+    </figure>
+    <figure class="gallery__item gallery__item--1">
+      <img src="img/12-sm.jpg" data-src="img/12.jpg" class="gallery__img lazyload"
+        alt="Condo à vendre sur Christophe Colomb image #1" data-sizes="auto" data-srcset="img/12-sm.jpg 450w,
+        img/12.jpg">
+    </figure>
+    <figure class="gallery__item gallery__item--1">
+      <img src="img/10-sm.jpg" data-src="img/10.jpg" class="gallery__img lazyload"
+        alt="Condo à vendre sur Christophe Colomb image #1" data-sizes="auto" data-srcset="img/10-sm.jpg 450w,
+        img/10.jpg">
+    </figure>
+    <figure class="gallery__item gallery__item--1">
+      <img src="img/11-sm.jpg" data-src="img/11.jpg" class="gallery__img lazyload"
+        alt="Condo à vendre sur Christophe Colomb image #1" data-sizes="auto" data-srcset="img/11-sm.jpg 450w,
+        img/11.jpg">
+    </figure>
+    <figure class="gallery__item gallery__item--1">
+      <img src="img/20-sm.jpg" data-src="img/20.jpg" class="gallery__img lazyload"
+        alt="Condo à vendre sur Christophe Colomb image #1" data-sizes="auto" data-srcset="img/20-sm.jpg 450w,
+        img/20.jpg">
+    </figure>
+    <figure class="gallery__item gallery__item--1">
+      <img src="img/16-sm.jpg" data-src="img/16.jpg" class="gallery__img lazyload"
+        alt="Condo à vendre sur Christophe Colomb image #1" data-sizes="auto" data-srcset="img/16-sm.jpg 450w,
+        img/16.jpg" width="100%">
+    </figure>
+  </div>
+</section>
+
+
+
+<section id="visite" class="section is-medium" data-aos="fade-up" data-aos-delay="500" data-aos-duration="800">
+  <div class="container">
+    <h2 class="is-size-1 has-text-centered has-text-weight-bold has-text-capitalized mb-5 pb-5">{{ .Params.heading3 }}
+    </h2>
+    <div class="responsiveIframe has-shadow">
+      <iframe data-src="https://youriguide.com/{{ $.Site.Params.visit }}" class="lazyload" frameborder="0"></iframe>
+    </div>
+
+    <div class="is-flex is-aligned-center is-justified-center my-5 py-5">
+      <a href="img/floorplan_imperial_en.pdf" class="button is-primary has-text-capitalized" target="_blank">Télécharger
+        Le Plan D'Étage</a>
+    </div>
+
+    <div class="divider"></div>
+    <p class="is-size-1 has-text-centered has-text-weight-bold has-text-capitalized heading"> Parfaitement situé</p>
+    <h2 class="is-size-3 mt-1 has-text-centered has-text-weight-normal mb-5 pb-5">{{ .Params.sector_heading }}</h2>
+    <div class="responsiveIframe has-shadow map">
+      <iframe data-src="{{ $.Site.Params.googlemap }}" class="lazyload map" frameborder="0" height="800px"></iframe>
+    </div>
+
+  </div>
+
+
+</section>
+
+<footer id="contact" class="section is-medium has-background-primary">
+  <div class="container">
+    <h2 class="is-size-1 has-text-centered has-text-weight-bold has-text-white has-text-capitalized">Demander plus
+      d'informations</h2>
+    <p class="block has-text-white has-text-centered-touch">{{ .Params.moreinfo }}</p>
+
+    <div class="columns mt-5 pt-5">
+      <div class="column is-9">
+        <div class="formbox2">
+          <form id="contact-form" method="POST" action="{{ .Site.Params.usebasin }}" role="form">
+
+            <div class="field">
+
+              <label for="form_name">{{ i18n "firstname" }} *</label>
+
+              <input id="form_name" type="text" name="name" class="input" required="required"
+                data-error="Firstname is required.">
+
+            </div>
+
+            <div class="field">
+
+              <label for="form_email">{{ i18n "email" }} *</label>
+
+              <input id="form_email" type="email" name="email" class="input" required="required"
+                data-error="Valid email is required.">
+
+            </div>
+
+            <div class="field">
+
+              <label for="form_phone">{{ i18n "phone" }}</label>
+
+              <input id="form_phone" type="tel" name="phone" class="input">
+
+            </div>
+
+            <div class="field">
+              <label for="form_message">Message *</label>
+
+              <textarea id="form_message" name="message" class="input" rows="4" required
+                data-error="Please,leave us a message."></textarea>
+
+            </div>
+            
+            <div class="is-flex is-justified-start">
+              <input type="submit" class="button is-secondary" value="Envoyer Le Message">
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="column is-flex is-column is-aligned-end is-justified-center">
+        <figure class="">
+          <img src="img/agent.jpg" class="lazyload has-shadow" alt="Daniel Murphy Agent Immobilier" data-sizes="auto"
+            data-srcset="img/agent.jpg" width="100%">
+        </figure>
+        <p class="heading is-size-5 has-text-white">Daniel Murphy</p>
+        <small class="has-text-white heading has-text-weight-bold">GROUPE SUTTON EXCELLENCE INC.</small>
+        <small class="has-text-white">Agence immobilière</small>
+        <small class="has-text-white">1555, boul. de l'Avenir #100</small>
+        <small class="has-text-white">Laval QC H7S 2N5</small>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+
+{{ end }}

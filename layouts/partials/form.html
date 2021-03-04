@@ -1,0 +1,40 @@
+<div class="formbox"><h3 class="has-text-primary has-text-weight-bold is-size-4 mb-3">Planifiez Une Visite</h3>
+<form id="contact-form" method="POST" action="{{ .Site.Params.usebasin }}" role="form">
+          
+        <div class="columns">
+            <div class="column">
+              <div class="field">
+
+                <label for="form_name">{{ i18n "firstname" }} *</label>
+  
+                <input id="form_name" type="text" name="firstname" class="input" required="required"
+                  data-error="Firstname is required.">
+  
+              </div>
+            </div>
+            <div class="column">
+              <div class="field">
+
+                <label for="form_lastname">{{ i18n "lastname" }} *</label>
+  
+                <input id="form_lastname" type="text" name="lastname" class="input" required="required"
+                  data-error="Lastname is required.">
+  
+              </div>
+            </div>
+        </div>
+
+        <div class="field">
+
+          <label for="form_email">{{ i18n "email" }} *</label>
+
+          <input id="form_email" type="email" name="email" class="input" required="required"
+            data-error="Valid email is required.">
+
+        </div>
+
+<div class="is-flex is-justified-start">
+<input type="submit" class="button is-primary mt-3" value="Contactez Nous">
+</div>
+</form>
+</div>
