@@ -1,6 +1,6 @@
 baseURL: /
 title: 5791 Chabot
-description: Devenez propriétaire d'un magnifique condo proche du métro Jean-talon avec une belle luminosité et grande terrasse côté coucher de soleil.
+description: Devenez propriétaire d'une propriété avec plus de 3000 pieds carrés d'espace, 4 chambres dont 3 à l'étage, possibilité d'une 5e au besoin. 
 DefaultContentLanguage: fr
 
 menu:
@@ -24,11 +24,11 @@ menu:
 params: 
     businessname: "5791 Chabot"
     showLanguageSelector: false #true if bilingual site - false if unilingual
-    usebasin: 'https://usebasin.com/f/2941bd408e68' #endpoint for forms
-    googlemap: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18798.4763146908!2d-73.6270153966806!3d45.54207269548786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc9193dd1dd93af%3A0xc9daf02f8bfa1036!2s7408%20Ave%20Christophe-Colomb%2C%20Montreal%2C%20QC%20H2R%202S7!5e0!3m2!1sen!2sca!4v1613684105416!5m2!1sen!2sca' # Map code of Google
-    visit: 'a_7408_ave_christophe_colomb_montreal_qc'
-    gtm: 'GTM-PZVKQ58'
-    price: "$378,900"
+    usebasin: 'https://usebasin.com/f/795712af7aed' #endpoint for forms
+    googlemap: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2794.4524565273778!2d-73.59081968444002!3d45.541222979101924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc9195e914bc347%3A0xb1efbc40348d5e15!2s5791%20Rue%20Chabot%2C%20Montr%C3%A9al%2C%20QC%20H2G%202S8!5e0!3m2!1sen!2sca!4v1614890005021!5m2!1sen!2sca' # Map code of Google
+    visit: '5791_rue_chabot_montr_al_qc'
+    gtm: 'GTM-M88G949'
+    price: "$1,289,000 $"
     mls: "27300764"
     phone: "514-238-2699"
     social:
