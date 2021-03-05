@@ -1,37 +1,35 @@
 ---
-title: Propriété Unique Sur L'Avenue Christophe-Colomb
-description: Devenez propriétaire d'un magnifique condo proche du métro Jean-Talon avec une belle luminosité et grande terrasse côté coucher de soleil.
+title: Propriété Magnifique au 5791 rue Chabot
+description: Devenez propriétaire d'un magnifique propriété dans Rosemont, à quelques minutes de marche de la rue Beaubien et ses café et cinéma, promenade Masson et le Plateau. 
 
-hero1: UNE PROPRIÉTÉ UNIQUE SUR L'AVENUE CHRISTOPHE-COLOMB
-hero2: Devenez propriétaire d'un magnifique condo proche du métro Jean-Talon avec une belle luminosité et grande terrasse côté coucher de soleil.
+hero1: UNE PROPRIÉTÉ HAUT DE GAMME DANS ROSEMONT
+hero2: Plus de 3000 pi2 d'espace, 4 + 1 chambres, 3 salles de bain sur 3 étages.  Situé dans Rosemont, à quelques minutes de marche de la rue Beaubien et ses café et cinéma, promenade Masson et le Plateau. 
 
 heading1: "Prix de vente: "
-subheading1: 7408A Christophe Colomb
+subheading1: 5791 rue Chabot
 
-feature1: Métro Jean-Talon
-feature1_desc: Proche de tout les services, du parc Jarry et du marché et métro Jean-Talon. 
+feature1: Au Coeur De Rosemont
+feature1_desc: Situé dans Rosemont, à quelques minutes de marche de la rue Beaubien, promenade Masson et Plateau. 
 
-feature2: Belle Luminosité
-feature2_desc: Une meilleur qualité de vie grâce à un puit de lumière et de grande fenêtres en façade.
+feature2: Très Ensoleillé
+feature2_desc: Belle qualité de vie dans un secteur en grande demande, très bien placé
 
 feature3: Grande Terrasse
-feature3_desc: Profitez du grande terrase côté coucher de soleil 
+feature3_desc: Grande terrasse 16 x 8 avec porte patio de 10 pieds de large.
 
-listing_desc: "Belle co-propriété mis au goût du jour!! Un fond de prévoyance de 10 000$ déjà inclus pour les différentes demandes des nouvelles normes. Plafond de 9 pieds, Condo très lumineux avec ses grandes fenêtres en façade, puit de lumière. Cuisine refaite avec comptoir de quartz. Salle de bain refaite avec bain émaillé et plancher en céramique. Tout les plancher de bois franc on été resablé et remis à neuf. Nouvelle portes intérieurs et des plinthes chauffantes WiFi on été installé pour un meilleur contrôle du climat. De nouvelle valve d'eau on été installé pour l'unité. Les coupes froid on été corrigé ainsi que le roulement de la porte patio. Tout le logement à été repeinturé. Fenêtres et portes noires neuves seront installées en façade et finalement une installation air climatisé mural/thermopompe à été fait.<br><br> La brique sera réparée là où ce sera nécessaire.<br><br>Stationnement disponible en vente (non inclus dans la prix). Visite sur rendez-vous en tout temps.<br><br>Nous sommes dans l'attente du certificat de localisation par étage pour les quotes parts officiels.<br><br>
-<strong>Exclus : Tous les meubles, éléments décoratifs et les électros.</strong><br>
-Vente sans garantie légale de qualité, aux risques et périls de l'acheteur"
+listing_desc: "Plus de 3000 pieds carrés d'espace, 4 chambres dont 3 à l'étage, possibilité d'une 5e au besoin. 3 salles de bain, dont une pour la chambre des maîtres à travers le walk-in. Situé dans Rosemont, à quelques minutes de marche de la rue Beaubien et ses café et cinéma, promenade Masson et le Plateau. Beaucoup d'espace pour votre famille ! Déjà 4 voisines adorables vivent dans l'immeuble.<br></br>Haut de gamme : entièrement rénové à l'intérieur. 9 pieds de plafonds. $8000 d'électro ménagers inclus.<br></br>Travaux à 95% terminés, au printemps les derniers travaux extérieurs seront complétés.<br></br>Grande terrasse 16 x 8 avec porte patio de 10 pieds de large.<br></br>Plancher de bois ainsi plancher chauffant dans les salles de bain et la dalle de béton du sous-sol, céramique et porcelaine. Isolé et insonorisé à l'uréthane (Murs et plafond plus cellulose). Fenêtres neuves. Portes neuves. Air climatisé et thermopompes neuves. Chauffe-eau, électricité, cuisine et plomberie neuve.<br></br>2 stationnements à l'arrière et facile d'accès grâce à la ruelle de la rue Bordeaux.<br></br>Un locker de 56 pieds carrés est inclus au sous-sol pour vos objets personnels.<br></br>Cafés, restos et toutes les commodités à proximité. Bâtisse solide et bien entretenue."
 
 benefit1: Cuisine refaite
-benefit2: Comptoir de quartz
+benefit2: Planché chauffant
 benefit3: Salle de bain refaite
 
-benefit4: Bain émaillé
-benefit5: Nouvelle céramique
-benefit6: Planché de bois franc sablé
+benefit4: Plafond 9 pieds
+benefit5: $8000 d'électro ménagers inclus
+benefit6: Isolé et insonorisé à l'uréthane
 
 benefit7: Nouvelles portes intérieurs
-benefit8: Plinthes chauffantes WiFi
-benefit9: Isolation amélioré
+benefit8: Fenêtres neuves
+benefit9: Portes neuves.
 
 heading2: "Nouvellement Rénové"
 subheading2: Avec une attention aux détails pour une meilleur qualité de vie.

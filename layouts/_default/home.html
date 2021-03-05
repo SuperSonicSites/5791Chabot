@@ -20,9 +20,7 @@
           </div>
         </div>
         <div class="column is-4">
-          <div class="" data-aos="zoom-in" data-aos-delay="1500" data-aos-duration="800">
-            {{- partial "form.html" .}}
-          </div>
+
         </div>
 
       </div>
@@ -32,19 +30,34 @@
 </header>
 <div class="gallery2">
   <figure class="gallery__item gallery__item--1">
-    <img data-sizes="auto" src="img/coucher1-sm.jpg" data-srcset="img/coucher1-sm.jpg 450w,
-    img/coucher1.jpg" data-src="img/coucher1.jpg" class="gallery__img lazyload"
-      alt="Condo à vendre sur Christophe Colomb image #1">
+    <img data-sizes="auto" src="img/2-sm.jpg" data-srcset="img/2-sm.jpg 450w,
+    img/2.jpg" data-src="img/2.jpg" class="gallery__img lazyload"
+      alt="Plus de 3000 pieds carrés d'espace, 4 chambres dont 3 à l'étage, possibilité d'une 5e au besoin">
   </figure>
   <figure class="gallery__item gallery__item--1">
-    <img src="img/13-sm.jpg" class="gallery__img lazyload" alt="Condo à vendre sur Christophe Colomb image #1"
-      data-sizes="auto" data-srcset="img/13-sm.jpg 450w,
-      img/13.jpg" data-src="img/13.jpg.jpg">
+    <img src="img/4-sm.jpg" class="gallery__img lazyload" alt="Plus de 3000 pieds carrés d'espace, 4 chambres dont 3 à l'étage, possibilité d'une 5e au besoin"
+      data-sizes="auto" data-srcset="img/4-sm.jpg 450w,
+      img/4.jpg" data-src="img/4.jpg.jpg">
   </figure>
   <figure class="gallery__item gallery__item--1">
-    <img src="img/10-sm.jpg" class="gallery__img lazyload" alt="Condo à vendre sur Christophe Colomb image #1"
-      data-sizes="auto" data-srcset="img/10-sm.jpg 450w,
-      img/10.jpg" data-src="img/10.jpg">
+    <img src="img/5-sm.jpg" class="gallery__img lazyload" alt="Plus de 3000 pieds carrés d'espace, 4 chambres dont 3 à l'étage, possibilité d'une 5e au besoin"
+      data-sizes="auto" data-srcset="img/5-sm.jpg 450w,
+      img/9.jpg" data-src="img/5.jpg">
+  </figure>
+  <figure class="gallery__item gallery__item--1">
+    <img data-sizes="auto" src="img/6-sm.jpg" data-srcset="img/6-sm.jpg 450w,
+    img/6.jpg" data-src="img/6.jpg" class="gallery__img lazyload"
+      alt="Plus de 3000 pieds carrés d'espace, 4 chambres dont 3 à l'étage, possibilité d'une 5e au besoin">
+  </figure>
+  <figure class="gallery__item gallery__item--1">
+    <img src="img/4-sm.jpg" class="gallery__img lazyload" alt="Plus de 3000 pieds carrés d'espace, 4 chambres dont 3 à l'étage, possibilité d'une 5e au besoin"
+      data-sizes="auto" data-srcset="img/4-sm.jpg 450w,
+      img/15.jpg" data-src="img/4.jpg.jpg">
+  </figure>
+  <figure class="gallery__item gallery__item--1">
+    <img src="img/5-sm.jpg" class="gallery__img lazyload" alt="Plus de 3000 pieds carrés d'espace, 4 chambres dont 3 à l'étage, possibilité d'une 5e au besoin"
+      data-sizes="auto" data-srcset="img/5-sm.jpg 450w,
+      img/17.jpg" data-src="img/5.jpg">
   </figure>
 </div>
 <section class="section is-medium" data-aos="fade-up" data-aos-delay="500" data-aos-duration="800">
@@ -53,7 +66,7 @@
       <h2 class="is-size-1 has-text-centered has-text-weight-bold has-text-capitalized">{{ .Params.heading1 }}
         {{ $.Site.Params.price }}</h2>
       <h3 class="is-size-3 mt-1 has-text-centered has-text-weight-normal">{{ .Params.subheading1 }}</h3>
-      <p>MLS #: {{ $.Site.Params.mls }}</p>
+      <p>{{ $.Site.Params.mls }}</p>
     </div>
     <div class="divider_white"></div>
     <div class="columns">
@@ -180,68 +193,54 @@
 
 
 <section>
-  <div class="gallery" id="photos" data-aos="fade-up" data-aos-delay="500" data-aos-duration="800">
-    <figure class="gallery__item gallery__item--1">
-      <img src="img/1-sm.jpg" data-src="img/1.jpg" class="gallery__img lazyload"
-        alt="Condo à vendre sur Christophe Colomb image #1" data-sizes="auto" data-srcset="img/1-sm.jpg 450w,
-        img/1.jpg">
-    </figure>
-    <figure class="gallery__item gallery__item--1">
-      <img src="img/2-sm.jpg" data-src="img/2.jpg" class="gallery__img lazyload"
-        alt="Condo à vendre sur Christophe Colomb image #1" data-sizes="auto" data-srcset="img/2-sm.jpg 450w,
-        img/2.jpg">
-    </figure>
-    <figure class="gallery__item gallery__item--1">
-      <img src="img/3-sm.jpg" data-src="img/3.jpg" class="gallery__img lazyload"
-        alt="Condo à vendre sur Christophe Colomb image #1" data-sizes="auto" data-srcset="img/3-sm.jpg 450w,
-        img/3.jpg">
-    </figure>
-    <figure class="gallery__item gallery__item--1">
-      <img src="img/4-sm.jpg" data-src="img/4.jpg" class="gallery__img lazyload"
-        alt="Condo à vendre sur Christophe Colomb image #1" data-sizes="auto" data-srcset="img/4-sm.jpg 450w,
-        img/4.jpg">
-    </figure>
-    <figure class="gallery__item gallery__item--1">
-      <img src="img/coucher1-sm.jpg" data-src="img/coucher1.jpg" class="gallery__img lazyload"
-        alt="Condo à vendre sur Christophe Colomb image #1" data-sizes="auto" data-srcset="img/coucher1-sm.jpg 450w,
-        img/coucher1.jpg">
-    </figure>
-    <figure class="gallery__item gallery__item--1">
-      <img src="img/coucher2-sm.jpg" data-src="img/coucher2.jpg" class="gallery__img lazyload"
-        alt="Condo à vendre sur Christophe Colomb image #1" data-sizes="auto" data-srcset="img/coucher2-sm.jpg 450w,
-        img/coucher2.jpg">
-    </figure>
-    <figure class="gallery__item gallery__item--1">
-      <img src="img/7-sm.jpg" data-src="img/7.jpg" class="gallery__img lazyload"
-        alt="Condo à vendre sur Christophe Colomb image #1" data-sizes="auto" data-srcset="img/7.jpg 450w,
-        img/7.jpg">
-    </figure>
-    <figure class="gallery__item gallery__item--1">
-      <img src="img/12-sm.jpg" data-src="img/12.jpg" class="gallery__img lazyload"
-        alt="Condo à vendre sur Christophe Colomb image #1" data-sizes="auto" data-srcset="img/12-sm.jpg 450w,
-        img/12.jpg">
-    </figure>
-    <figure class="gallery__item gallery__item--1">
-      <img src="img/10-sm.jpg" data-src="img/10.jpg" class="gallery__img lazyload"
-        alt="Condo à vendre sur Christophe Colomb image #1" data-sizes="auto" data-srcset="img/10-sm.jpg 450w,
-        img/10.jpg">
-    </figure>
-    <figure class="gallery__item gallery__item--1">
-      <img src="img/11-sm.jpg" data-src="img/11.jpg" class="gallery__img lazyload"
-        alt="Condo à vendre sur Christophe Colomb image #1" data-sizes="auto" data-srcset="img/11-sm.jpg 450w,
-        img/11.jpg">
-    </figure>
-    <figure class="gallery__item gallery__item--1">
-      <img src="img/20-sm.jpg" data-src="img/20.jpg" class="gallery__img lazyload"
-        alt="Condo à vendre sur Christophe Colomb image #1" data-sizes="auto" data-srcset="img/20-sm.jpg 450w,
-        img/20.jpg">
-    </figure>
-    <figure class="gallery__item gallery__item--1">
-      <img src="img/16-sm.jpg" data-src="img/16.jpg" class="gallery__img lazyload"
-        alt="Condo à vendre sur Christophe Colomb image #1" data-sizes="auto" data-srcset="img/16-sm.jpg 450w,
-        img/16.jpg" width="100%">
-    </figure>
-  </div>
+  <div class="container">
+    <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
+    <div class="pa-gallery-player-widget responsiveIframe lazyload" style="width:100%; height:480px; display:none;"
+      data-link="https://photos.app.goo.gl/e7Ebp5BgLJTxz3U87"
+      data-title="5791 RUE CHABOT"
+      data-description="39 new photos · Album by Supersonic Sites">
+      <object data="https://lh3.googleusercontent.com/vsqcS1MXg83yORBW801GCFBpTj8Ia8Ss3MTEry4ax2ic7HFB_T6AxwB4xDHSjgfxH4M-DGGPnDbRWErW107_HLtsoRXnc8Nrgfh7Exq_dF_ILHl1TIx2EYGpWHaK5S-bTBAqsdVG4g=w1920-h1080"></object>
+      <object data="https://lh3.googleusercontent.com/kOlpl4lnab_W4my2dtAmtxhctG27-zwAuyLaof3jQvbljY1c6T9i-HCiiY07xnndPzb3EyNqiwtZF1rafzrZSQHKWgHZTB1uhMxRL_ccVVyyNdqQud0SwtH_QE_TneTfpX_6qcSGeA=w1920-h1080"></object>
+      <object data="https://lh3.googleusercontent.com/ViOCqpCT7CDdF2PqzTXmr9ELvwAxrtpB-H29iqOYW6FU-vzwyrwWM7CTcbTxrSTl__bkfr-fjFifr0JSHXycr9yp-h4muPNHmMGXMK0UU4bPA9jRiZ97aa70aZpb2bQNKtk5187IEw=w1920-h1080"></object>
+      <object data="https://lh3.googleusercontent.com/DT-X12gycqc2xRcUg04q3pLIio3FcIHfO6LrxYdU9BywyKd6cNFSTgztXdfW9Sm06yfj6Q6Y6HqtpPzfUlKitSYqjvbPVY7SRC8h8av8IHA2oCiIJynqVL50A71VKogYMLSBZylfRg=w1920-h1080"></object>
+      <object data="https://lh3.googleusercontent.com/z_YOi31qTokDhrvW3a8olzqeQ0H3Z9P6FhjB87_RLm5U4V_fuJM468ibJT7agJhmKwcQssFdBZ7pLy3HA3cpZKGUsnzj6ka_bUKaHoC2ldlk4rzwoX31DzFzu13CwdOpxPX7X30HzA=w1920-h1080"></object>
+      <object data="https://lh3.googleusercontent.com/SMjZe-0hWp0bg1s6j75wZO0yzRWTWGCdNnRBmxtmzjcAc58nSXEbft4KSCdwbGRlEQy_0I0X4RVtP61IoBBKIJj0iPDGLikFsGDcWZRxcaT2VXO0OML3yrME5kn3LqXHrBQQEhuIlg=w1920-h1080"></object>
+      <object data="https://lh3.googleusercontent.com/ntJt9QPMaq4pJ74L8qe73hkDbu0GmuukpX5d9xBLjXxcodfpWg61LZjsaed5J0qXm6w9nlNHNP7WYrwuznBmv8RK0KEhPg8PDe1VVXy5G_WEQyJfclba0zger0HiTqPy4LY4qwzrWQ=w1920-h1080"></object>
+      <object data="https://lh3.googleusercontent.com/z8dFn0TmbAwP-nAU94BhV37qCFGFjMA4YZUcOLgr1JWaG5fcqkYUCM1ZH4k4-bnKINIYidOwCsdMKMp7fGqe5UZIqmMvV2NpwhSjgVeRfM42hUSIIrnBK6jeKJc25WmcGJyN6jIW3A=w1920-h1080"></object>
+      <object data="https://lh3.googleusercontent.com/DQbz7n7ShlBNL66jDxkbe_jQDhnm9JwMrPyRXiQxmB0kqNY09NhKTsgf5t-7RMJfByLagG6yyQQa5ucQHEw4VSSxSCNThPXYIDjP3br_hZ5ZrFeuFSS4YvoLX_9hTc-4mFFpUTSmMQ=w1920-h1080"></object>
+      <object data="https://lh3.googleusercontent.com/mI4Vzds469EnyAMoSdrrRWAMC2BzUvH03GkPqkIwT1Wheu7vvTE2S8hYdpUcj5BXWcz03638tIbSXyn2L2MgLAh_z0Gz0yilpomfEIO6azp8-FbFOdSwmpKMT-Q8pStGbULQUY_TlA=w1920-h1080"></object>
+      <object data="https://lh3.googleusercontent.com/E-qi9w9dKYR258tR-w5WBrfdl8GCuCA_qJPt0dfqsXLkbEKG39KxGtT0jJynkLLQqx6xQY2rrJ27ur0xO7bP4OmW9BDlPFvu-Pcf6I4CVGDUX2lRQxznz_WBjR01ePSvBTyffznhjg=w1920-h1080"></object>
+      <object data="https://lh3.googleusercontent.com/JUrMgM9_viW7E3TVt7iy4dwrBdbHtwOZiXC7C1MvT9fKJnQ9BKP_ibrTWfLRuLxOSt-0sCHvJUx1nd0z6R5TAsmsdB36R5EDFyVijDvtQF-BPrD2KHHhoqI52AgssLO-3TGl1P8FfA=w1920-h1080"></object>
+      <object data="https://lh3.googleusercontent.com/POcmOjw8ol-S3bHO2pRvSQKH4Dbauwm9gU-NYphkGP4T7Y1Xtj6drmXn22wdu8OgcHjZRA2gd8k1NqfOE2wduzx6Uc2LGPQJsAz9xUS58olpg_VGPko6V0Yvqr2Zvp7W0JUhvcXA5g=w1920-h1080"></object>
+      <object data="https://lh3.googleusercontent.com/I-SOB7q5hgSehoi5KU1thzMDFtVXCp8zWdKYRkN6AYHDQ9EBl3DRb426fIu_bDMshftre5sKZy508XUyqtfawFxVFRwbtB-0ruyZfJrrWzor3OEfgQ9sfQ-ptVlg-6vJK7uAZ3Oh-Q=w1920-h1080"></object>
+      <object data="https://lh3.googleusercontent.com/QZnJls1JcLYyhc3k15LsvBz1_x0j5dIGhIFpknJnZtiRFyMqwtBGaQTilWZpHVA80F4hBPdai8dU9fUwIjtqeYg-8I9jByiqy3kyXaQgWO8HXzJ-WEmOpiC3hIoeFHA1L7zAPzGpeg=w1920-h1080"></object>
+      <object data="https://lh3.googleusercontent.com/Aff09jjZ4J0qVX0kXNoGxKHlojsQ_8g-WxaDkaxaDM_yxmv2pdV1AfE4bA527FjcomzV4AmyClbaxeY4_uRb57szsDIWNnQmJhNRfei0630XKq63jbu_1-vyQOXmr7GphhDJGAn66g=w1920-h1080"></object>
+      <object data="https://lh3.googleusercontent.com/TBhSJyyMZSmItHlK-kIwD1eVTNt28tAhbGhNumGA_7SEMrA2QVjqqGakNFROhr1websq2DbZN5Q6vLi0522M09AKV5CvdopyUYdFQA_9M0vEz_V1HhaWA6g2g_YiF-9fShE5dcReaA=w1920-h1080"></object>
+      <object data="https://lh3.googleusercontent.com/W7N1cVDEISuyA3Y1FCo9aeWyt1qpd8RXtgngnvFRB6rERANMYJJ3jtN9-6eRB6b1uQkTTkZmoZA7WOu48R8d-jtuzso26kFYRNhvB5IyhoftQVwuaNuEP5uBmfW35Z1occrgbepxkQ=w1920-h1080"></object>
+      <object data="https://lh3.googleusercontent.com/4KkbX8zU6A9Z4cXQpQU_4vpSLJUczNxITvagd2ys39VIbYv8-pqCihawOnhfRgjR4uY4b6G7Zmk6dTfEzbGMdy7tinARU60U_JDwSSdPF06aIIY6eUFKg0ZgMhMG3P3vFCI65JA5OA=w1920-h1080"></object>
+      <object data="https://lh3.googleusercontent.com/TCzVQOcBxfMgEnZAEseUE4tC1G3L3CRR5FUFWg-Yqj74oPNjnX3H2-OlrJPDSCIZn4h4ST2n1LXlhtPMcA82EH9lmIU--RfNP1aRe_bNsqcurNG898Q-tTx1q6yIhFkEwmD8EuZWbg=w1920-h1080"></object>
+      <object data="https://lh3.googleusercontent.com/vd4MDYLhQwYttxxKBRakmb6XPgFomHbYph4jlBxbWF8kyqYHVu6OqPhr_BzAp4vsbOlPu7r8nmWgmjKQZ0ZBubvNe-XsxiEpUdWlyRTR1Q1Fgp3gFyCEfEVoQnwPL6dEsve-4QURsA=w1920-h1080"></object>
+      <object data="https://lh3.googleusercontent.com/nVFnhjQhdzTegCgpMRRu5unge68ZhsPUH8KJTRieDlMDbAnOsqIw3ope8nulwkmDmTQGAWTrN83tGtlLMP5jq0uAoC6LyO9vDysfuDvluNoPSeA9uMtNgoz5YcMJ6G_OMfpx1F1R2Q=w1920-h1080"></object>
+      <object data="https://lh3.googleusercontent.com/jaiaocxTQCP-nGbSJLjpuxw4qkKYPz0TMjZkS_sQ1uGWmbJgnJ0YG_wcOu5_Z3NLChcV5fwUDTWf4ZigATfS6BpbDKjikBc73LJ11c4IuSo-2OmqpYYxt00K0ffQFpaw1uBwLV6qpA=w1920-h1080"></object>
+      <object data="https://lh3.googleusercontent.com/fZBYAgHlPOI3P44xHAqf_YCu3MG28H2HLSOZFejlsUFO4C7EA2dLNIjivIFREtuRwJwS8-j7yUtDbkoH8jmnDQk1J_kDf1g9BofqcNZRUvbFksyBsWNImkrRHTRk4AwGBC97W3kghA=w1920-h1080"></object>
+      <object data="https://lh3.googleusercontent.com/O_9HUlo6fpnOUfGQ8MQLSgb6rLiMm72d1FyFwQJns5u9ocu8eq6jDBc8Av7bsenXo_ix-L45sI7K2x3Go3eOornTjTdHiPerKEhRcBb3uX5FuWvqbBWrJfXeQ4iCOouui519-XYEvQ=w1920-h1080"></object>
+      <object data="https://lh3.googleusercontent.com/PvHdKmzgHW1qgvrS59XEPB3ZjLzie8rD3WRieoGPuIVrt9LDTuK5hwtbIPlfcGfk5IeIT1TJmiZtt0yXrNoNqFQtR-8AGonV_Wpy8J64gKV7pH-CTKZvtrdGiaLvaHxKETdjFR7Y0A=w1920-h1080"></object>
+      <object data="https://lh3.googleusercontent.com/C2MJFu93FkBJ81r-zfHAYFqImN2ldpU7FsNmogwHNzKgXU0T7NU22kU2O37kFy5-gMowoR1MwFFu6s3xB2wD1UIRGdCxu_e8QB79xelXpuSOoLudctyYD-Y8hvCEgmmGZNwON-V1TQ=w1920-h1080"></object>
+      <object data="https://lh3.googleusercontent.com/IqNnBQwb7c_fNwJmXvboTa3yyjU2LIWI4OUju18lh43WqGszCPQF4TBoG8l2a0FL7aYCOHICwAdFscS_KJT942SzcYv_XHSdx-98HuXgoAAxxC0JW6w6buce6ZV9SjpqpqY39hBoHw=w1920-h1080"></object>
+      <object data="https://lh3.googleusercontent.com/TXmwqLARNcowuFo9XKHUrvJLgOC6pkq5TV5Q9KyI7UBz5KLgX161EvjG3m5J6qtDYxcwA_QDj1-uM-30mHjdMv7gQNq9QNR3Sfav28zqRK0QmD3FeWmKzJmFTBk8LbaqtVsAoNCmwA=w1920-h1080"></object>
+      <object data="https://lh3.googleusercontent.com/YfxFiIWOxj3vSvDoyXfz1K7ZIlB-KzqIykI3p6l8d233T1I1XDoBT0qt1jDZXofSYp3fGUTHosYr-aXKYF6TUPXZhH6nZ4cMgO9NpEui9G61zouEprLlX2S-nqrE-IFTprC4xFLdmw=w1920-h1080"></object>
+      <object data="https://lh3.googleusercontent.com/D4D393eNCnwScM722BYcf1yZeXL3F_LgKMkGRrYzRn7cyNsiZZVrVMIflWcwXu3SfBZWvov3eJbyJTSncRu3NSwwheDsjRa3AHC3Q3njBE4uXJlPgYzQe70Q3-W2BGBItFbkCn5O0g=w1920-h1080"></object>
+      <object data="https://lh3.googleusercontent.com/_vKxdjj9NGC9aKDw6dYxhNTH4Tu3_vWHw-yzifAh8pOUcONfv-MleNwxW3FfBV9423wds1jGe1lSmuu-kkfGdDycKXhisM-fWZi_EUx4wmOPi9IXhlTU7ZPFZgwjPdsVCJRUybwiFA=w1920-h1080"></object>
+      <object data="https://lh3.googleusercontent.com/oQO16t5gzjwPvO-7gQxuLfbNeE1HdLZodqiGgRTiUUXUO783oucifGb0dOtPIiIDNUxJODN2YuUCXazTpbO4QtShMllHkV5VrCmMdA2F03j8sXj6CCcLeBBgSzWAuN-Cox5mvEiWHQ=w1920-h1080"></object>
+      <object data="https://lh3.googleusercontent.com/E3aiMNj1GYNq7F54FvD3bGHV6K86G9uqKlSZwwEwJImsXFwDGGVTkkkEF9iQT2cnD-1qSOWCB5-Xc3wcKAEl9DSvbYUJ4DV4mdf1WE_Ei6kntZpYnpWLA3_evbzq2oIghurY1_Vu3w=w1920-h1080"></object>
+      <object data="https://lh3.googleusercontent.com/jOctMPzq_ZaL3NLn_TT2TRqLAcKfp2DoLPLdCzYJhHzq1P03VJvBDZ1YSe95ZsV_TehIKLnWML2pWIhPm-uXiqtJaaUCUIkoLKiJhBzhY-Ji0xWpgxnsY6AOjbABT16QLwxGvYkAjw=w1920-h1080"></object>
+      <object data="https://lh3.googleusercontent.com/6oP89Q5qt_Ho4yDinsUg1xoSZ6UWcLWsWD_-nS79PTnVRwx9nvm-0MFLS_wryM4v3_zrg__PG3CpijYFueFAHo5fYM3JlhrrQqD6T4HfD9hzVqKBNMHmvXmzuuyBYcVfUFwpQ_nItQ=w1920-h1080"></object>
+      <object data="https://lh3.googleusercontent.com/VUG-zVE9yQW3adAlMRoeXVF1LcbkgMiV1-XOeIuYC-9mngLiKEKyADZff-QuUOLvluGrBRAtfXE8o1SmfYXZoajQpeZf_MGhbLDNbOegdkS2n4BO5ipB0HYuUqWlhpbQkatgGwkw_w=w1920-h1080"></object>
+      <object data="https://lh3.googleusercontent.com/r092njgWbgkBq0ANR3P2MylNU9mtLnxlOw4vqX2NcH6KQgTdG5YRc-fvBUiOZpA-drOi8nFaXFN4Zc-IwkEQchfoRao1_XM25gqPkGl0ftuqSNMf7Kwsgh9FXtqfnphLrpW_SZDifQ=w1920-h1080"></object>
+      <object data="https://lh3.googleusercontent.com/ucA6-sO2T5mlg7sfT-Lf1KPN_PTIv6L7SK0glqfdnAh_5gFHLbZs87cYRtiUTcgCvIFQ0XyzoRdtbhuPm8QMMa01nE6USy156tChvyAuOmzTbvDfC77-xj3hYWl_SbekNWpv3oyDxA=w1920-h1080"></object>
+    </div>
+    
+</div>
 </section>
 
 
