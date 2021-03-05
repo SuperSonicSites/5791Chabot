@@ -39,6 +39,6 @@ heading3: "Visite Virtuelle"
 moreinfo:  Si vous trouvez cette opportunité intéressante et que vous souhaitez en savoir plus… veuillez simplement remplir le formulaire ci-dessous et nous vous contacterons pour répondre à toutes vos questions et vous fournir de la documentation supplémentaire. Si vous souhaitez prendre rendez-vous pour visiter cette propriété, faites-nous le savoir dans le formulaire ci-dessous.
 
 # SECTOR -> See https://montreal.ca/apropos/
-sector_heading: Villeray–Saint-Michel–Parc-Extension
+sector_heading: Rosemont – La Petite-Patrie
 sector_desc:  Avec ses 143 850 résidents, l’arrondissement de Villeray–Saint-Michel–Parc-Extension est le deuxième plus peuplé de Montréal. Ses quartiers hautement métissés sont souvent choisis comme terre d’accueil par les nouveaux arrivants, qui représentent plus de 75 communautés culturelles. Ses 4 quartiers aux personnalités distinctes portent l’héritage de ces vagues d’immigration. Comptant 9 stations de métro, cet immense territoire comprend 2 grands parcs, le parc Jarry, hôte de nombreux événements d’envergure, et le parc Frédéric-Back, ambitieux projet de réhabilitation environnementale.
 ---
