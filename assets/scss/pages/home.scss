@@ -1,3 +1,10 @@
+
+
+#photos {
+  content-visibility: auto;
+  contain-intrinsic-size: 200px;
+}
+
 .formbox {
     background-color: white;
     padding: 3rem;
@@ -112,5 +119,8 @@
  }
  .is-size-3 {
    font-size: 1.75rem !important;
+ }¨
+ .credit {
+   font-size: 0.8rem !important;
  }
 }

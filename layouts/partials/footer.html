@@ -1,17 +1,17 @@
 
 <footer class="has-background-light py-4">
 
-    <div class="container level has-text-dark">
+    <div class="container level has-text-dark credit">
           
       <div class="level-left">
   
-        <div class="level-item">
+        <div class="level-item ">
       
-        <p class="has-text-centered-touch">Copyright © {{ dateFormat "2006" now }} - 
+        <small class="has-text-centered-touch">Copyright © {{ dateFormat "2006" now }} - 
           
           {{ if eq .Site.Language.Lang "fr" }}
             
-              <a href="{{ .Site.BaseURL }}privacy-policy/" class="has-text-primary">{{ i18n "privacypolicy" }}
+              <a href="{{ .Site.BaseURL }}privacy-policy/" class="has-text-primary has-text-centered-touch">{{ i18n "privacypolicy" }}
               
                   {{ else }}
               
@@ -21,14 +21,14 @@
                 
               </a> 
           
-            </p>
+            </small>
           
           </div>   
         </div>
     
         <div class="level-right has-text-centered-touch">
             
-            <p class="">{{ i18n "credit" }} <a href="https://www.supersonicsites.com/" class="has-text-primary">Supersonic Sites</a></p>
+            <small class="">{{ i18n "credit" }} <a href="https://www.supersonicsites.com/" class="has-text-primary">Supersonic Sites</a></small>
           
           </div>                   
         
